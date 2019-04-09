@@ -1,0 +1,9 @@
+svg polygon {
+	stroke-dasharray: 50;
+	animatio: dashoffset 1.5s linear infinite;
+}
+@keyframes dashoffset{
+	to {
+		stroke-dasoffset: 100; 
+	}
+}
